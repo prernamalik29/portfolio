@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,400&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(29, 23, 41);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(14, 20, 31);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(109, 109, 194);
+            font-size: 1.02rem;
+        }
+
+        .left {
+            font-size: 3rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+            align-items: center;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+            margin: 43px;
+            padding: 40px;
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            background-color: rgb(80, 23, 23);
+            padding: 10px;
+            border-radius: 60px;
+            border: 1px solid black;
+            color: bisque;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .rightSection img {
+            width: 80%;
+            margin: 20px;
+        }
+
+        .secondSection {
+            margin: auto;
+            max-width: 80vw;
+        }
+
+        .secondSection hr {
+            font-size: 112rem;
+        }
+
+        .secondSection .box {
+            background-color: black;
+            width: 70vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .verticle {
+            height: 45px;
+            width: 1px;
+            background-color: black;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 40px;
+            position: relative;
+            top: -40px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 25px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 30px;
+            color: gray;
+            width: 150px;
+            font-size: 10px;
+        }
+
+        footer {
+
+            height: 50px;
+
+        }
+
+        .footer {
+            margin: 300px;
+            text-align: center;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Prerna's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a
+                            href="https://website6111216.nicepage.io/Page-6.html?version=784d6987-9942-4715-acad-82853112df10&uid=bc575530-cac1-4b24-aac8-8bb5bbfe5567">about</a>
+                    </li>
+                    <li><a href="contact.html">contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftSection">Hi, My name is <span class="purple">Prerna</span>
+                <div>I am a passionate</div>
+                <div class="purple">web developer.</div>
+                <div class="buttons">
+                    <button class="btn"><a href="prerna malik resume.pdf">Download resume</a></button>
+                    <button class="btn"><a href="https://github.com/prernamalik29">visit Github</a></button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="webimg2.jpg">
+            </div>
+
+        </section>
+
+        <section class="secondSection">
+            <span class="text-gray">what i have learned</span>
+            <h1>Skills</h1>
+
+            <div class="box">
+                <div class="verticle">
+                    <img class="image-top" src="html2.png">
+                    <div class="vertical-title">HTML</div>
+                    <div class="vertical-desc">The HyperText Markup Language or HTML is the standard markup language for
+                        documents designed to be displayed in a web browser. It defines the content and structure of web
+                        content. It is often assisted by technologies such as Cascading Style Sheets and scripting
+                        languages such as JavaScript. </div>
+
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="css.png">
+                    <div class="vertical-title">CSS</div>
+                    <div class="vertical-desc">Cascading Style Sheets is a style sheet language used for specifying the
+                        presentation and styling of a document written in a markup language such as HTML or XML. CSS is
+                        a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="js.png">
+                    <div class="vertical-title">JS</div>
+                    <div class="vertical-desc">JavaScript, often abbreviated as JS, is a programming language and core
+                        technology of the World Wide Web, alongside HTML and CSS. As of 2023, 98.7% of websites use
+                        JavaScript on the client side for webpage behavior, often incorporating third-party libraries.
+                    </div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="dev.png">
+                    <div class="vertical-title">java programming</div>
+                    <div class="vertical-desc">Java is a high-level, class-based, object-oriented programming language
+                        that is designed to have as few implementation dependencies as possible. </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            www.prernasportfolio.com | All rights reserved.
+    </footer>
+</body>
+
+</html>
